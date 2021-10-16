@@ -1,0 +1,314 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+  --header-height: 4.5rem;
+  
+
+  --hue: 149;
+
+  /* SUN */
+  
+  --rose-color-sun: #FA709A;
+  --base-color-sun: #FFC726;
+  --medium-color-sun: #FEE140;
+  --light-yellow-color-sun: #FFF3B2;
+
+  /* SKY 1° DIV */
+  --sky-color-1: #4facfe;
+  --sky-color-2: #4daffe;
+  --sky-color-3: #1bf2fd;
+  
+  /* BOX */
+  --box-color-1: #42DEF3;
+  --box-color-2: #3276DB;
+
+  /* SKY 2° DIV */
+  --second-sky-color-1: #B0D5FC;
+  --second-sky-color-2: #A1C4FD;
+  --second-sky-color-3: #C2E9FB;
+
+  /* CLOUD */
+  --cloud-color-1: #C3C1C0;
+  --cloud-color-2: #3CC0FF;
+  --cloud-color-3: #C4C4C4;
+
+}
+
+
+  .divider-1 {
+    height: 1px;
+    background: #3f3e3e;
+
+    display: block;
+  }
+
+  #header {
+    background: white;
+    display: flex;
+  }
+
+  #header .myphoto {
+    /* Ficar atento a proporção original que é de 960 x 1280*/
+    width: 26rem;
+    height: 26rem;
+
+    border-radius: 50%;
+  }
+
+  #header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header .imgs{
+    align-items: center;
+  }
+
+  #header #linkedin_image {
+    /*Proporção original é de 512 x 512 então é tranquilo*/
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #header #github_image {
+    /*Proporção original é de 512 x 512 então é tranquilo*/
+    /*A proporção é igual, mas a imagem em si é maior*/
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  #first_section {
+    background-image: linear-gradient(to bottom, white 1%, var(--sky-color-1), var(--sky-color-2), var(--sky-color-3), white);
+
+    height: 500px;
+  }
+
+  #first_section .circle {
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 50%;
+    background-color: blue;
+
+    background-image: linear-gradient(to bottom, var(--light-yellow-color-sun), var(--medium-color-sun), var(--rose-color-sun));
+  }
+
+  .cloud {
+    display: flex;
+  }
+
+  #second_section {
+    background-image: linear-gradient(to bottom, var(--second-sky-color-1), var(--second-sky-color-2), var(--second-sky-color-3), white);
+
+    height: 500px;
+  }
+
+  #second_section .cloud #biggest_ball {
+    position: relative;
+    left: 2rem;
+    
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 50%;
+    background-color:red;
+  }
+
+  #second_section .cloud #shorter_ball {
+    position: relative;
+    top: 2rem;
+
+    right: 4rem;
+    width: 14rem;
+	  height: 14rem;
+	  border-radius: 50%;
+    background-color:red;
+  }
+
+  #second_section .cloud #biggest_trait {
+    position: relative;
+    
+    width: 30rem;
+	  height: 5rem;
+
+    top: 11rem;
+    right: 30rem;
+
+	  border-radius: 20%;
+    background-color:red;
+
+    margin: 10px;
+  }
+
+  #second_section .cloud #shorter_trait {
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 20%;
+    background-color: red;
+  }
+
+
+
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+  --header-height: 4.5rem;
+  
+
+  --hue: 149;
+
+  /* SUN */
+  
+  --rose-color-sun: #FA709A;
+  --base-color-sun: #FFC726;
+  --medium-color-sun: #FEE140;
+  --light-yellow-color-sun: #FFF3B2;
+
+  /* SKY 1° DIV */
+  --sky-color-1: #4facfe;
+  --sky-color-2: #4daffe;
+  --sky-color-3: #1bf2fd;
+  
+  /* BOX */
+  --box-color-1: #42DEF3;
+  --box-color-2: #3276DB;
+
+  /* SKY 2° DIV */
+  --second-sky-color-1: #B0D5FC;
+  --second-sky-color-2: #A1C4FD;
+  --second-sky-color-3: #C2E9FB;
+
+  /* CLOUD */
+  --cloud-color-1: #C3C1C0;
+  --cloud-color-2: #3CC0FF;
+  --cloud-color-3: #C4C4C4;
+
+}
+
+
+  .divider-1 {
+    height: 1px;
+    background: #3f3e3e;
+
+    display: block;
+  }
+
+  #header {
+    background: white;
+    display: flex;
+  }
+
+  #header .myphoto {
+    /* Ficar atento a proporção original que é de 960 x 1280*/
+    width: 26rem;
+    height: 26rem;
+
+    border-radius: 50%;
+  }
+
+  #header p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header .imgs{
+    align-items: center;
+  }
+
+  #header #linkedin_image {
+    /*Proporção original é de 512 x 512 então é tranquilo*/
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #header #github_image {
+    /*Proporção original é de 512 x 512 então é tranquilo*/
+    /*A proporção é igual, mas a imagem em si é maior*/
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  #first_section {
+    background-image: linear-gradient(to bottom, white 1%, var(--sky-color-1), var(--sky-color-2), var(--sky-color-3), white);
+
+    height: 500px;
+  }
+
+  #first_section .circle {
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 50%;
+    background-color: blue;
+
+    background-image: linear-gradient(to bottom, var(--light-yellow-color-sun), var(--medium-color-sun), var(--rose-color-sun));
+  }
+
+  .cloud {
+    display: flex;
+  }
+
+  #second_section {
+    background-image: linear-gradient(to bottom, var(--second-sky-color-1), var(--second-sky-color-2), var(--second-sky-color-3), white);
+
+    height: 500px;
+  }
+
+  #second_section .cloud #biggest_ball {
+    position: relative;
+    left: 2rem;
+    
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 50%;
+    background-color:red;
+  }
+
+  #second_section .cloud #shorter_ball {
+    position: relative;
+    top: 2rem;
+
+    right: 4rem;
+    width: 14rem;
+	  height: 14rem;
+	  border-radius: 50%;
+    background-color:red;
+  }
+
+  #second_section .cloud #biggest_trait {
+    position: relative;
+    
+    width: 30rem;
+	  height: 5rem;
+
+    top: 11rem;
+    right: 30rem;
+
+	  border-radius: 20%;
+    background-color:red;
+
+    margin: 10px;
+  }
+
+  #second_section .cloud #shorter_trait {
+    width: 16rem;
+	  height: 16rem;
+	  border-radius: 20%;
+    background-color: red;
+  }
+
+
+
+>>>>>>> 015cd142a4652465e1f2aa17a6a98bd2a4404ca7
+  

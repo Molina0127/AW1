@@ -1,0 +1,9 @@
+function init(robot) {
+	// your code goes here
+	console.log("Robot iniatilizing...")
+}
+
+function loop(robot) {
+	// your code goes here
+	robot.action = {type: 'move', amount: 30}
+}
