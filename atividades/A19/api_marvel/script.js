@@ -2,7 +2,7 @@ const timestamp = '1639510170';
 const apiKey = 'a1a1ecf2fe9ec34a04197c95fe6f91e9';
 const md5 = 'c22cbd68bb703ed2e50271817c0d385a';
 
-fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${md5}&limit=6`).then((response) => {
+fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${md5}&limit=6`).then((response) => {
   return response.json();
 }).then((jsonParsed) => {
     const divHero = document.querySelector("#herois");
